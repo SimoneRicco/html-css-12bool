@@ -1,0 +1,36 @@
+/* reset  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* general settings */
+.container{
+    max-width: 780px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.sky{
+    background-color: #7094A4;
+}
+.leaves{
+    background-color: #416A45;
+}
+.water{
+    background-color: #006699;
+}
+.wood{
+    background-color: #3D2512;
+}
+.ground{
+    background-color: #5B4F42;
+}
+.grass{
+    background-color: #425D45;
+}
+[class*="col"]{
+    aspect-ratio: 1 / 1;
+}
+.row{
+    height: 60px;
+}
